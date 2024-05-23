@@ -1,0 +1,75 @@
+/* EmailConfirmation.css */
+
+.emailconfirm {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background: url('./images/background.png') no-repeat center center/cover; /* Background image */
+    background-size: cover;
+    height: 100vh; /* Set page height to full viewport height */
+
+  }
+  
+  .emailconfirm::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Behind content */
+    opacity: 0.3; /* Adjust opacity */
+
+  }
+  
+  .page-box {
+    display: flex;
+    align-items: center;
+    background-color: #f0f0f0; /* Bubble background color */
+    padding: 20px; /* Add padding */
+    border-radius: 20px; /* Border radius for bubble effect */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add shadow for depth */
+    flex-direction: column; /* Stack items vertically */
+    text-align: center;
+  }
+  
+  .pirate-avatar {
+    width: 150px; /* Set width of the pirate avatar */
+    height: auto; /* Maintain aspect ratio */
+    margin-bottom: 15px; /* Add spacing below the avatar */
+    display:flex;
+  }
+  
+  .text-content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .text-content h2 {
+    margin-bottom: 20px; /* Add margin below heading */
+  }
+  
+  .button-container {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px; /* Add margin above the button */
+}
+
+.button-container button {
+    padding: 10px; /* Adds padding inside the buttons */
+    background-color: #6d392b; /* Button background color */
+    color: #fff; /* Button text color */
+    border: none; /* Remove default border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor on hover */
+    text-decoration: none; /* Remove text underline */
+    font-size: 18px; /* Increase font size */
+}
+
+.button-container button:hover {
+    background-color: #874c3c; /* Change background color on hover */
+}
+  

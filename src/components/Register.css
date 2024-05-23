@@ -1,0 +1,153 @@
+/* Register.css */
+
+.container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #bca89f;
+  }
+
+  .top-logo{
+    display:flex;
+    width:50px;
+    height: 50px;
+   top: 0;
+   left:0;
+    flex-direction: column;
+  }
+  
+  .logo-icon{
+    display:flex;
+    width:50px;
+    height: 50px;
+   top: 100px;
+   left:0;
+   padding-left: 950px;
+  }
+  .form-container1 {
+    background-color: #ffffff;
+    padding: 40px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: Poppins;
+    width: 700px;
+    height:400px;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .register-title header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .register-title sub-heading{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  
+  .heading {
+    font-size: 36px;
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #5b3e31;
+    
+  }
+  
+  .sub-heading {
+    font-size: 24px;
+    font-weight: bold;
+    margin-bottom: 20px;
+    color: #5b3e31;
+  }
+  
+  .input-group {
+    display: flex;
+    margin-bottom: 10px;
+  }
+  .input-group label{
+    display: block;
+    margin-bottom: 5px;
+    color:#3d291f;
+  }
+  
+  .input-group input {
+    width: calc(50% - 10px);
+    padding: 10px;
+    border: 1px solid #5b3e31;
+    border-radius: 5px;
+    margin-right: 10px;
+  }
+  
+  .input-group input:last-child {
+    margin-right: 0;
+  }
+  
+  .error-message {
+    color: red;
+  }
+
+  .Button-container1 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 40px;
+}
+  
+  button {
+    background-color: #5b3e31;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+    width:200px;
+  }
+  
+  button:hover {
+    background-color: #3d291f;
+  }
+
+  .cloud-icon3 {
+    position: absolute;
+   width: 500px;
+   height: 500px;
+   right:-15px;
+   top:-130px;
+   padding-bottom:150px;
+}
+.cloud-icon4 {
+    position: absolute;
+   width: 500px;
+   height: 500px;
+   right:1000px;
+   top:-130px;
+}
+
+.ship-icon2 {
+    position: absolute;
+   width: 300px;
+   height: 300px;
+   right:1020px;
+    top: 10px;
+    padding-top: 150px;
+}
+
+.water-icon4 {
+    position: absolute;
+    width: 280px;
+    height: 220px;
+    right:1040px;
+     top: 10px;
+     padding-top: 380px;
+}
+.water-icon5 {
+  position: absolute;
+  width: 280px;
+  height: 220px;
+  right:-18px;
+   top: 10px;
+   padding-top: 380px;
+}

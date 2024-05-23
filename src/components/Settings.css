@@ -1,0 +1,220 @@
+/* Settings.css */
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+}
+
+.settings-page {
+    display: flex;
+    min-height: 100vh;
+}
+
+.sidebar {
+    width: 200px;
+    background-color: #5B3E31;
+    position: fixed;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.ship-icon {
+    width: 50px;
+    height: 50px;
+    margin-right: 10px;
+}
+
+.navigation {
+    list-style: none;
+    padding: 0;
+    width: 100%;
+}
+
+.navigation li {
+    width: 100%;
+}
+
+.navigation li a {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #874c3c;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.navigation li a:hover {
+    background-color: #6d392b;
+}
+
+.logout-button {
+    display: block;
+    padding: 10px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    background-color: #874c3c;
+    margin-bottom: 10px;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+}
+
+.logout-button:hover {
+    background-color: #6d392b;
+}
+
+.content-area3 {
+    margin-left: 200px; /* Same width as the sidebar */
+    flex: 1;
+    padding: 20px;
+    background: url('./images/background.png') no-repeat center center/cover;
+    background-size: cover;
+    background-attachment: fixed; /* Keep background image fixed */
+    background-position: center center; /* Center the background image */
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 220vh;
+}
+
+.content-area3::before {
+    content: '';
+    background: rgba(255, 255, 255, 0.3); /* Adjust opacity for a faded effect */
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    z-index: -1; /* Behind content */
+}
+
+.introduction3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(240, 240, 240, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%; /* Adjust width as needed */
+    margin-bottom: 20px;
+    z-index: 1;
+}
+
+.profile-picture {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 15px;
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-info label {
+    color: black;
+}
+
+.user-info h2 {
+    margin-bottom: 20px;
+    color: #5B3E31;
+}
+
+.user-info p,
+.user-info label {
+    margin-bottom: 10px;
+}
+
+.user-info input {
+    padding: 5px;
+    margin-left: 10px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+
+.user-info button {
+    padding: 10px 20px;
+    background-color: #6d392b;
+    color: #fff;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    text-decoration: none;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.user-info button:hover {
+    background-color: #874c3c;
+}
+
+.message {
+    margin-top: 10px;
+    color: #6d392b;
+}
+
+.faq {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(240, 240, 240, 0.8);
+    padding: 20px;
+    border-radius: 20px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    width: 80%; /* Adjust width as needed */
+    z-index: 1;
+}
+
+.faq h2 {
+    margin-bottom: 20px;
+    color: #5B3E31;
+}
+
+.faq h3{
+    color:#5B3E31;
+}
+
+.faq p {
+    margin-bottom: 10px;
+    color:#5B3E31;
+
+}
+
+.faq li {
+    color: black;
+}
+
+.faq-section {
+    margin-bottom: 40px;
+}
+
+ol {
+    margin-left: 20px;
+}
+
+li {
+    margin-bottom: 10px;
+    grid-column: auto;
+}
+
+strong {
+    font-weight: bold;
+}

@@ -1,0 +1,111 @@
+.page-container {
+  display: flex;
+  height: 100vh; /* Full viewport height */
+  position: relative; /* Position for overlay */
+}
+
+.page-container::before {
+  content: '';
+  background: url('./images/background.png') no-repeat center center/cover; /* Background image */
+  opacity: 0.3; /* Adjust opacity */
+  position: absolute; /* Overlay */
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  z-index: -1; /* Behind content */
+}
+
+.sidebar3 {
+  background-color: #5B3E31;
+  display: flex;
+  flex-direction: column; /* Display children in a column layout */
+  width: 200px;
+  height: 100%; /* Full height */
+}
+
+.logo3 {
+  display: flex;
+  align-items: center; /* Align items vertically */
+  padding: 10px; /* Add padding for spacing */
+}
+
+.ship-icon3 {
+  width: 50px; /* Adjust the width to make the image smaller */
+  height: 50px; /* Maintain aspect ratio */
+  margin-right: 5px; /* Add some spacing between the icon and text */
+}
+
+.pirate-avatar {
+  width: 150px; /* Set width of the pirate avatar */
+  height: auto; /* Maintain aspect ratio */
+  margin-right: 15px; /* Add spacing between the avatar and the heading */
+}
+
+.navigation3 {
+  list-style: none;
+  padding: 0;
+  margin-top: 50px; /* Add margin to separate logo from navigation */
+  flex-direction: column;
+}
+
+.navigation3 li {
+  margin-bottom: 30px; /* Add margin between each button */
+}
+
+.navigation3 li a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 10px; /* Add padding to make each button clickable */
+  background-color: #874c3c; /* Background color for buttons */
+  border-radius: 5px; /* Add border radius for rounded corners */
+  transition: background-color 0.3s; /* Smooth transition for hover effect */
+}
+
+.navigation3 li a:hover {
+  background-color: #6d392b; /* Change background color on hover */
+}
+
+.content-area {
+  flex: 1; /* Take up remaining space */
+  padding: 20px; /* Add padding */
+  position: relative; /* Position for internal elements */
+}
+
+h1 {
+  margin-bottom: 20px; /* Add margin below heading */
+}
+
+/* Styles for the task table */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px; /* Add margin to separate from other content */
+}
+
+th, td {
+  border: 1px solid #ddd;
+  padding: 8px;
+  text-align: left;
+}
+
+th {
+  background-color: #f2f2f2; /* Background color for table headers */
+  color: #5B3E31;
+}
+
+td {
+  color: #5B3E31;
+  font-weight: bold;
+}
+
+.button-container {
+  display: flex;
+  gap: 10px; /* Adds space between the buttons */
+}
+
+.button-container button {
+  padding: 10px; /* Adds padding inside the buttons */
+  /* You can add more styles here */
+}

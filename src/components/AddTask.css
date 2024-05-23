@@ -1,0 +1,104 @@
+.page-container {
+    display: flex;
+    height: 100vh; /* Set page height to full viewport height */
+  }
+  
+  .sidebar {
+    background-color: #5B3E31;
+    display: flex;
+    flex-direction: column; /* Display children in a column layout */
+    width:200px;
+    height: 600px;
+  }
+  
+  .logo {
+    display: flex;
+    align-items: center; /* Align items vertically */
+    padding: 10px; /* Add padding for spacing */
+  }
+  
+  .ship-icon3 {
+    width: 50px; /* Adjust the width to make the image smaller */
+    height: 50px; /* Maintain aspect ratio */
+    margin-right: 5px; /* Add some spacing between the icon and text */
+  }
+  
+  .navigation {
+    list-style: none;
+    padding: 0;
+    margin-top: 50px; /* Add margin to separate logo from navigation */
+    flex-direction: column;
+  }
+  
+  .navigation li {
+    margin-bottom: 30px; /* Add margin between each button */
+  }
+  
+  .navigation li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px; /* Add padding to make each button clickable */
+    background-color: #874c3c; /* Background color for buttons */
+    border-radius: 5px; /* Add border radius for rounded corners */
+    transition: background-color 0.3s; /* Smooth transition for hover effect */
+  }
+  
+  .navigation li a:hover {
+    background-color: #6d392b; /* Change background color on hover */
+  }
+  
+  .content-area {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto; /* Allow content to scroll if it exceeds viewport height */
+  }
+  
+  .task-form {
+    width: 70%; /* Adjust form width */
+    max-width: 500px; /* Limit maximum form width */
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #874c3c; /* Add background color */
+    border-radius: 8px; /* Add border radius */
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Add box shadow */
+  }
+  
+  .form-group {
+    margin-bottom: 20px;
+  }
+  
+  label {
+    display: block;
+    margin-bottom: 5px;
+  }
+  
+  input[type="text"],
+  input[type="date"],
+  input[type="time"],
+  textarea,
+  select {
+    width: calc(100% - 16px); /* Adjust width to account for padding */
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box; /* Include padding and border in the element's total width and height */
+  }
+  
+  button {
+    width: 98%; /* Make button full-width */
+    padding: 10px;
+    background-color: #5B3E31;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    align-items: center;
+    justify-content: center;
+  }
+  
+  button:hover {
+    background-color:antiquewhite;
+    color:#5B3E31;
+  }

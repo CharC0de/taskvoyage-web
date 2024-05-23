@@ -1,0 +1,102 @@
+.page-container {
+    display: flex;
+    height: 100vh;
+  }
+  
+  .sidebar2 {
+    background-color: #5B3E31;
+    width: 200px;
+    height: 100%; /* Make the sidebar full height */
+    position: fixed; /* Fix the position of the sidebar */
+    top: 0; /* Position the sidebar at the top of the viewport */
+    left: 0; /* Position the sidebar at the left of the viewport */
+    overflow-y: auto; /* Enable vertical scrolling for the sidebar */
+  }
+  
+  .logo2 {
+    display: flex;
+    align-items: center;
+    padding: 10px; 
+  }
+  
+  .ship-icon4 {
+    width: 50px;
+    height: 50px;
+    margin-right: 5px;
+  }
+  
+  .navigation2 {
+    list-style: none;
+    padding: 0;
+    margin-top: 50px;
+    flex-direction: column;
+  }
+  
+  .navigation2 li {
+    margin-bottom: 30px;
+  }
+  
+  .navigation2 li a {
+    text-decoration: none;
+    color: #fff;
+    display: block;
+    padding: 10px;
+    background-color: #874c3c;
+    border-radius: 5px;
+    transition: background-color 0.3s;
+  }
+  
+  .navigation2 li a:hover {
+    background-color: #6d392b;
+  }
+  
+  .content {
+    flex: 1;
+    padding: 20px;
+    overflow-y: auto; /* Enable vertical scrolling for the content area */
+    margin-left: 200px; /* Adjust for the fixed sidebar width */
+  }
+
+  .content h1{
+    color: black;
+  }
+  
+  .calendar-container {
+    flex: 1;
+    padding: 20px;
+    width: 500px;
+    height: 300px;
+  }
+  
+  .event-form {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-bottom: 20px;
+  }
+
+  .event-form h2{
+    color: black;
+  }
+  
+  .event-form label {
+    margin-bottom: 5px;
+    color: black;
+    font:bold;
+  }
+  
+  .event-form input {
+    margin-bottom: 10px;
+    color:black;
+  }
+
+  .calendar-container h1{
+    color: black;
+  }
+
+  .calendar-container h3{
+    color: black;
+  }
+
+
+  
